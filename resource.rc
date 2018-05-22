@@ -1,0 +1,84 @@
+#include "resource.h"
+
+ID_ICO_CLIENTCARD           ICON        "card1.ico"
+ID_ICO_ADMINCARD            ICON        "admincard2.ico"
+ID_ICO_P10                  ICON        "perspective cash/10lei.ico"
+ID_ICO_P50                  ICON        "perspective cash/50lei.ico"
+ID_ICO_P100                 ICON        "perspective cash/100lei.ico"
+ID_ICO_P200                 ICON        "perspective cash/200lei.ico"
+ID_ICO_P500                 ICON        "perspective cash/500lei.ico"
+
+
+ID_BMP_GREEN                BITMAP      "green2.bmp"
+ID_BMP_CARDGET              BITMAP      "cardgetter.bmp"
+ID_BMP_ATM                  BITMAP      "ocean.bmp"
+ID_BMP_HSCREENFRAME         BITMAP      "hscreenframe.bmp"
+ID_BMP_VSCREENFRAME         BITMAP      "vscreenframe.bmp"
+
+//ID_BMP_CASHOUTOPENED        BITMAP      "cashOut/opened.bmp"
+ID_BMP_CASHOUTCLOSED        BITMAP      "cashOut/closed.bmp"
+
+ID_BMP_CASH10SMALL          BITMAP      "cashIn/10lei small.bmp"
+ID_BMP_CASH50SMALL          BITMAP      "cashIn/50lei small.bmp"
+ID_BMP_CASH100SMALL         BITMAP      "cashIn/100lei small.bmp"
+ID_BMP_CASH200SMALL         BITMAP      "cashIn/200lei small.bmp"
+ID_BMP_CASH500SMALL         BITMAP      "cashIn/500lei small.bmp"
+
+ID_BMP_CASHOUT1X10          BITMAP      "cashOut/cashout 1x10.bmp"
+ID_BMP_CASHOUT2X10          BITMAP      "cashOut/cashout 2x10.bmp"
+ID_BMP_CASHOUT3X10          BITMAP      "cashOut/cashout 3x10.bmp"
+ID_BMP_CASHOUT1X50          BITMAP      "cashOut/cashout 1x50.bmp"
+ID_BMP_CASHOUT2X50          BITMAP      "cashOut/cashout 2x50.bmp"
+ID_BMP_CASHOUT3X50          BITMAP      "cashOut/cashout 3x50.bmp"
+ID_BMP_CASHOUT1X100         BITMAP      "cashOut/cashout 1x100.bmp"
+ID_BMP_CASHOUT2X100         BITMAP      "cashOut/cashout 2x100.bmp"
+ID_BMP_CASHOUT3X100         BITMAP      "cashOut/cashout 3x100.bmp"
+ID_BMP_CASHOUT1X200         BITMAP      "cashOut/cashout 1x200.bmp"
+ID_BMP_CASHOUT2X200         BITMAP      "cashOut/cashout 2x200.bmp"
+ID_BMP_CASHOUT3X200         BITMAP      "cashOut/cashout 3x200.bmp"
+ID_BMP_CASHOUT1X500         BITMAP      "cashOut/cashout 1x500.bmp"
+ID_BMP_CASHOUT2X500         BITMAP      "cashOut/cashout 2x500.bmp"
+ID_BMP_CASHOUT3X500         BITMAP      "cashOut/cashout 3x500.bmp"
+
+ID_BMP_CASHGETTER           BITMAP      "cashIn/cashgetter.bmp"
+ID_BMP_STATEMENT            BITMAP      "statement.bmp"
+ID_BMP_STATEMENTOUT         BITMAP      "statementdefault.bmp"
+
+
+ID_MAIN                ICON DISCARDABLE   "atmicon.ico"
+ID_ABOUTICON           ICON DISCARDABLE   "picture.ico"
+
+///Dialog
+IDD_ABOUT DIALOG DISCARDABLE 20, 20, 145, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Sans Serif"
+BEGIN
+     DEFPUSHBUTTON  "OK", IDOK, 47, 62, 50, 14 //WS_GROUP
+     ICON           ID_ABOUTICON, IDC_ABOUTICON, 7, 7, 20, 20, WS_GROUP
+     CTEXT          "Information", IDC_STATIC, 51, 17, 42, 11
+     CTEXT          "project made by me", IDC_STATIC, 19, 30, 103, 12
+     CTEXT          "I hope you enjoy it", IDC_STATIC, 7, 47, 130, 15
+END
+
+//Menu
+ID_MAIN MENU DISCARDABLE
+BEGIN
+    POPUP "&Program"
+    BEGIN
+         MENUITEM "&About..",      IDM_ABOUT
+         MENUITEM "&PIN",          IDM_PIN
+         MENUITEM SEPARATOR
+         MENUITEM "&Exit",         IDM_EXIT
+    END
+    POPUP "&Help", HELP
+    BEGIN
+        MENUITEM "&Please",   IDM_HELP
+    END
+END
+
+//String table
+STRINGTABLE DISCARDABLE
+BEGIN
+    ID_MAIN       "GenericClass"
+    ID_CAPTION    "ATM"
+END

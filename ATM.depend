@@ -1,0 +1,538 @@
+# depslib dependency file v1.0
+1447848065 source:d:\programare\win32 with classes\mvc\window2\bitmap.cpp
+	"Bitmap.h"
+
+1456767734 d:\programare\win32 with classes\mvc\window2\bitmap.h
+	<windows.h>
+	"Canvas.h"
+
+1456766678 source:d:\programare\win32 with classes\mvc\window2\function.cpp
+	"function.h"
+	<windows.h>
+
+1456768231 d:\programare\win32 with classes\mvc\window2\function.h
+	<windows.h>
+	"resource.h"
+
+1456768875 d:\programare\win32 with classes\mvc\window2\resource.h
+	<windows.h>
+
+1456767384 source:d:\programare\win32 with classes\mvc\window2\main.cpp
+	"main.h"
+	"resource.h"
+
+1456768429 d:\programare\win32 with classes\mvc\window2\main.h
+	<windows.h>
+	"WinClass.h"
+	"WinMaker.h"
+	"function.h"
+
+1456769278 d:\programare\win32 with classes\mvc\window2\winclass.h
+	"WinSimpleClass.h"
+	"windows.h"
+
+1456769363 d:\programare\win32 with classes\mvc\window2\winsimpleclass.h
+	<string>
+	<windows.h>
+	"ResString.h"
+
+1456768911 d:\programare\win32 with classes\mvc\window2\resstring.h
+	<windows.h>
+
+1456769295 d:\programare\win32 with classes\mvc\window2\winmaker.h
+	"WinClass.h"
+
+1456769459 source:d:\programare\win32 with classes\mvc\window2\resource.rc
+	"resource.h"
+
+1448541705 source:d:\programare\win32 with classes\mvc\window2\view.cpp
+	"View.h"
+
+1456769489 d:\programare\win32 with classes\mvc\window2\view.h
+	<fstream>
+	"model.h"
+	"resource.h"
+	"function.h"
+	"Cursor.h"
+	"Bitmap.h"
+
+1456768697 d:\programare\win32 with classes\mvc\window2\model.h
+	<string>
+	<map>
+	"display.h"
+	"Statement.h"
+
+1456767849 d:\programare\win32 with classes\mvc\window2\canvas.h
+	<windows.h>
+
+1456767483 source:d:\programare\win32 with classes\mvc\window2\winclass.cpp
+	"WinClass.h"
+	"resource.h"
+	<iostream>
+
+1456767523 source:d:\programare\win32 with classes\mvc\window2\winmaker.cpp
+	"WinMaker.h"
+
+1447492042 source:d:\programare\win32 with classes\mvc\window2\winsimpleclass.cpp
+	"WinSimpleClass.h"
+
+1456771168 source:d:\programare\win32 with classes\mvc\window2\controller.cpp
+	"Controller.h"
+	<stdio.h>
+	<tchar.h>
+	<windows.h>
+	<mmsystem.h>
+
+1456771213 d:\programare\win32 with classes\mvc\window2\controller.h
+	"main.h"
+	"View.h"
+	"Model.h"
+	"PaintCanvas.h"
+	"resource.h"
+	"Bitmap.h"
+	"display.h"
+	"cash_dispenser.h"
+	"keyboard.h"
+	"logger.h"
+	"BankDB.h"
+	"person.h"
+	"account.h"
+	"Transaction.h"
+	"InquireBalance.h"
+	"ValidateAmount.h"
+	"Withdraw.h"
+	"Deposit.h"
+	"Administrator.h"
+
+1451548742 d:\programare\win32 with classes\mvc\window2\paintcanvas.h
+	"Canvas.h"
+
+1451588516 d:\programare\win32 with classes\mvc\window2\blitter.h
+	"Bitmap.h"
+	"PaintCanvas.h"
+
+1456765926 source:d:\programare\win32 with classes\mvc\window2\account.cpp
+	"account.h"
+
+1456767579 d:\programare\win32 with classes\mvc\window2\account.h
+	<string>
+
+1456765962 source:d:\programare\win32 with classes\mvc\window2\bankdb.cpp
+	"BankDB.h"
+
+1456767674 d:\programare\win32 with classes\mvc\window2\bankdb.h
+	<map>
+	<fstream>
+	"person.h"
+	"display.h"
+
+1456768378 d:\programare\win32 with classes\mvc\window2\logger.h
+	<time.h>
+	<string.h>
+	<fstream>
+
+1456768154 d:\programare\win32 with classes\mvc\window2\display.h
+	<windows.h>
+	<string>
+
+1456768811 d:\programare\win32 with classes\mvc\window2\person.h
+	<string>
+	"account.h"
+
+1456766065 source:d:\programare\win32 with classes\mvc\window2\cash_dispenser.cpp
+	"cash_dispenser.h"
+	<iostream>
+
+1456767884 d:\programare\win32 with classes\mvc\window2\cash_dispenser.h
+	<fstream>
+	"display.h"
+
+1432134386 source:d:\programare\win32 with classes\mvc\window2\deposit.cpp
+
+1456770437 source:d:\programare\win32 with classes\mvc\window2\display.cpp
+	"display.h"
+
+1456766720 source:d:\programare\win32 with classes\mvc\window2\inquirebalance.cpp
+	"InquireBalance.h"
+
+1456769507 d:\programare\win32 with classes\mvc\window2\inquirebalance.h
+	"Transaction.h"
+	"account.h"
+
+1456768996 d:\programare\win32 with classes\mvc\window2\transaction.h
+	"account.h"
+
+1446605627 source:d:\programare\win32 with classes\mvc\window2\keyboard.cpp
+	"keyboard.h"
+	<conio.h>
+
+1446012959 d:\programare\win32 with classes\mvc\window2\keyboard.h
+	<iostream>
+	"display.h"
+
+1456766892 source:d:\programare\win32 with classes\mvc\window2\logger.cpp
+	"logger.h"
+
+1432199349 source:d:\programare\win32 with classes\mvc\window2\person.cpp
+	"person.h"
+
+1432134084 source:d:\programare\win32 with classes\mvc\window2\transaction.cpp
+
+1432134269 source:d:\programare\win32 with classes\mvc\window2\validateamount.cpp
+
+1432134337 source:d:\programare\win32 with classes\mvc\window2\withdraw.cpp
+
+1456769029 d:\programare\win32 with classes\mvc\window2\validateamount.h
+	"Transaction.h"
+	"account.h"
+
+1456769394 d:\programare\win32 with classes\mvc\window2\withdraw.h
+	"Transaction.h"
+	"account.h"
+
+1456768035 d:\programare\win32 with classes\mvc\window2\deposit.h
+	"Transaction.h"
+	"keyboard.h"
+	"account.h"
+
+1452864522 d:\programare\win32 with classes\mvc\window2\cursordim.in
+
+1456768016 d:\programare\win32 with classes\mvc\window2\cursor.h
+	<windows.h>
+
+1456768975 d:\programare\win32 with classes\mvc\window2\statement.h
+
+1456767608 d:\programare\win32 with classes\mvc\window2\administrator.h
+	<string>
+	<fstream>
+
+1456765926 source:d:\programare\win32 with classes\mvc\atm\account.cpp
+	"account.h"
+
+1456767579 d:\programare\win32 with classes\mvc\atm\account.h
+	<string>
+
+1456765962 source:d:\programare\win32 with classes\mvc\atm\bankdb.cpp
+	"BankDB.h"
+
+1456767674 d:\programare\win32 with classes\mvc\atm\bankdb.h
+	<map>
+	<fstream>
+	"person.h"
+	"display.h"
+
+1456768811 d:\programare\win32 with classes\mvc\atm\person.h
+	<string>
+	"account.h"
+
+1456768154 d:\programare\win32 with classes\mvc\atm\display.h
+	<windows.h>
+	<string>
+
+1456766065 source:d:\programare\win32 with classes\mvc\atm\cash_dispenser.cpp
+	"cash_dispenser.h"
+	<iostream>
+
+1456767884 d:\programare\win32 with classes\mvc\atm\cash_dispenser.h
+	<fstream>
+	"display.h"
+
+1456771558 source:d:\programare\win32 with classes\mvc\atm\controller.cpp
+	"Controller.h"
+	<stdio.h>
+	<tchar.h>
+	<windows.h>
+	<mmsystem.h>
+
+1456772242 d:\programare\win32 with classes\mvc\atm\controller.h
+	"main.h"
+	"View.h"
+	"Model.h"
+	"resource.h"
+	"Bitmap.h"
+	"display.h"
+	"cash_dispenser.h"
+	"logger.h"
+	"BankDB.h"
+	"person.h"
+	"account.h"
+	"Transaction.h"
+	"ValidateAmount.h"
+	"Withdraw.h"
+	"Deposit.h"
+	"Administrator.h"
+
+1456768429 d:\programare\win32 with classes\mvc\atm\main.h
+	<windows.h>
+	"WinClass.h"
+	"WinMaker.h"
+	"function.h"
+
+1456769278 d:\programare\win32 with classes\mvc\atm\winclass.h
+	"WinSimpleClass.h"
+	"windows.h"
+
+1456769363 d:\programare\win32 with classes\mvc\atm\winsimpleclass.h
+	<string>
+	<windows.h>
+	"ResString.h"
+
+1456768911 d:\programare\win32 with classes\mvc\atm\resstring.h
+	<windows.h>
+
+1456769295 d:\programare\win32 with classes\mvc\atm\winmaker.h
+	"WinClass.h"
+
+1456778614 d:\programare\win32 with classes\mvc\atm\function.h
+	<windows.h>
+	"resource.h"
+
+1456768875 d:\programare\win32 with classes\mvc\atm\resource.h
+	<windows.h>
+
+1456769489 d:\programare\win32 with classes\mvc\atm\view.h
+	<fstream>
+	"model.h"
+	"resource.h"
+	"function.h"
+	"Cursor.h"
+	"Bitmap.h"
+
+1456768697 d:\programare\win32 with classes\mvc\atm\model.h
+	<string>
+	<map>
+	"display.h"
+	"Statement.h"
+
+1456768975 d:\programare\win32 with classes\mvc\atm\statement.h
+
+1456768016 d:\programare\win32 with classes\mvc\atm\cursor.h
+	<windows.h>
+
+1456767734 d:\programare\win32 with classes\mvc\atm\bitmap.h
+	<windows.h>
+	"Canvas.h"
+
+1456767849 d:\programare\win32 with classes\mvc\atm\canvas.h
+	<windows.h>
+
+1456768378 d:\programare\win32 with classes\mvc\atm\logger.h
+	<time.h>
+	<string.h>
+	<fstream>
+
+1456768996 d:\programare\win32 with classes\mvc\atm\transaction.h
+	"account.h"
+
+1456769029 d:\programare\win32 with classes\mvc\atm\validateamount.h
+	"Transaction.h"
+	"account.h"
+
+1456769394 d:\programare\win32 with classes\mvc\atm\withdraw.h
+	"Transaction.h"
+	"account.h"
+
+1456772247 d:\programare\win32 with classes\mvc\atm\deposit.h
+	"Transaction.h"
+	"account.h"
+
+1456767608 d:\programare\win32 with classes\mvc\atm\administrator.h
+	<string>
+	<fstream>
+
+1456770437 source:d:\programare\win32 with classes\mvc\atm\display.cpp
+	"display.h"
+
+1456766678 source:d:\programare\win32 with classes\mvc\atm\function.cpp
+	"function.h"
+	<windows.h>
+
+1456766892 source:d:\programare\win32 with classes\mvc\atm\logger.cpp
+	"logger.h"
+
+1456767384 source:d:\programare\win32 with classes\mvc\atm\main.cpp
+	"main.h"
+	"resource.h"
+
+1432199349 source:d:\programare\win32 with classes\mvc\atm\person.cpp
+	"person.h"
+
+1456777459 source:d:\programare\win32 with classes\mvc\atm\resource.rc
+	"resource.h"
+
+1456767483 source:d:\programare\win32 with classes\mvc\atm\winclass.cpp
+	"WinClass.h"
+	"resource.h"
+	<iostream>
+
+1456767523 source:d:\programare\win32 with classes\mvc\atm\winmaker.cpp
+	"WinMaker.h"
+
+1447492042 source:d:\programare\win32 with classes\mvc\atm\winsimpleclass.cpp
+	"WinSimpleClass.h"
+
+1456765926 source:d:\programare\win32 with classes\mvc\atm not cleaned\account.cpp
+	"account.h"
+
+1456767579 d:\programare\win32 with classes\mvc\atm not cleaned\account.h
+	<string>
+
+1456765962 source:d:\programare\win32 with classes\mvc\atm not cleaned\bankdb.cpp
+	"BankDB.h"
+
+1456767674 d:\programare\win32 with classes\mvc\atm not cleaned\bankdb.h
+	<map>
+	<fstream>
+	"person.h"
+	"display.h"
+
+1456768811 d:\programare\win32 with classes\mvc\atm not cleaned\person.h
+	<string>
+	"account.h"
+
+1456768154 d:\programare\win32 with classes\mvc\atm not cleaned\display.h
+	<windows.h>
+	<string>
+
+1456766065 source:d:\programare\win32 with classes\mvc\atm not cleaned\cash_dispenser.cpp
+	"cash_dispenser.h"
+	<iostream>
+
+1456767884 d:\programare\win32 with classes\mvc\atm not cleaned\cash_dispenser.h
+	<fstream>
+	"display.h"
+
+1457332937 source:d:\programare\win32 with classes\mvc\atm not cleaned\controller.cpp
+	"Controller.h"
+	<stdio.h>
+	<tchar.h>
+	<windows.h>
+	<mmsystem.h>
+
+1456772242 d:\programare\win32 with classes\mvc\atm not cleaned\controller.h
+	"main.h"
+	"View.h"
+	"Model.h"
+	"resource.h"
+	"Bitmap.h"
+	"display.h"
+	"cash_dispenser.h"
+	"logger.h"
+	"BankDB.h"
+	"person.h"
+	"account.h"
+	"Transaction.h"
+	"ValidateAmount.h"
+	"Withdraw.h"
+	"Deposit.h"
+	"Administrator.h"
+
+1456768429 d:\programare\win32 with classes\mvc\atm not cleaned\main.h
+	<windows.h>
+	"WinClass.h"
+	"WinMaker.h"
+	"function.h"
+
+1456769278 d:\programare\win32 with classes\mvc\atm not cleaned\winclass.h
+	"WinSimpleClass.h"
+	"windows.h"
+
+1456769363 d:\programare\win32 with classes\mvc\atm not cleaned\winsimpleclass.h
+	<string>
+	<windows.h>
+	"ResString.h"
+
+1456768911 d:\programare\win32 with classes\mvc\atm not cleaned\resstring.h
+	<windows.h>
+
+1456769295 d:\programare\win32 with classes\mvc\atm not cleaned\winmaker.h
+	"WinClass.h"
+
+1456778614 d:\programare\win32 with classes\mvc\atm not cleaned\function.h
+	<windows.h>
+	"resource.h"
+
+1457332349 d:\programare\win32 with classes\mvc\atm not cleaned\resource.h
+	<windows.h>
+
+1456769489 d:\programare\win32 with classes\mvc\atm not cleaned\view.h
+	<fstream>
+	"model.h"
+	"resource.h"
+	"function.h"
+	"Cursor.h"
+	"Bitmap.h"
+
+1456768697 d:\programare\win32 with classes\mvc\atm not cleaned\model.h
+	<string>
+	<map>
+	"display.h"
+	"Statement.h"
+
+1456768975 d:\programare\win32 with classes\mvc\atm not cleaned\statement.h
+
+1456768016 d:\programare\win32 with classes\mvc\atm not cleaned\cursor.h
+	<windows.h>
+
+1456767734 d:\programare\win32 with classes\mvc\atm not cleaned\bitmap.h
+	<windows.h>
+	"Canvas.h"
+
+1456767849 d:\programare\win32 with classes\mvc\atm not cleaned\canvas.h
+	<windows.h>
+
+1456768378 d:\programare\win32 with classes\mvc\atm not cleaned\logger.h
+	<time.h>
+	<string.h>
+	<fstream>
+
+1456768996 d:\programare\win32 with classes\mvc\atm not cleaned\transaction.h
+	"account.h"
+
+1456769029 d:\programare\win32 with classes\mvc\atm not cleaned\validateamount.h
+	"Transaction.h"
+	"account.h"
+
+1456769394 d:\programare\win32 with classes\mvc\atm not cleaned\withdraw.h
+	"Transaction.h"
+	"account.h"
+
+1456772247 d:\programare\win32 with classes\mvc\atm not cleaned\deposit.h
+	"Transaction.h"
+	"account.h"
+
+1456767608 d:\programare\win32 with classes\mvc\atm not cleaned\administrator.h
+	<string>
+	<fstream>
+
+1481840961 source:d:\programare\win32 with classes\mvc\atm not cleaned\display.cpp
+	"display.h"
+
+1456766892 source:d:\programare\win32 with classes\mvc\atm not cleaned\logger.cpp
+	"logger.h"
+
+1456767384 source:d:\programare\win32 with classes\mvc\atm not cleaned\main.cpp
+	"main.h"
+	"resource.h"
+
+1432199349 source:d:\programare\win32 with classes\mvc\atm not cleaned\person.cpp
+	"person.h"
+
+1457332879 source:d:\programare\win32 with classes\mvc\atm not cleaned\resource.rc
+	"resource.h"
+
+1456767483 source:d:\programare\win32 with classes\mvc\atm not cleaned\winclass.cpp
+	"WinClass.h"
+	"resource.h"
+	<iostream>
+
+1456767523 source:d:\programare\win32 with classes\mvc\atm not cleaned\winmaker.cpp
+	"WinMaker.h"
+
+1447492042 source:d:\programare\win32 with classes\mvc\atm not cleaned\winsimpleclass.cpp
+	"WinSimpleClass.h"
+
+1457331676 source:d:\programare\win32 with classes\mvc\atm not cleaned\function.cpp
+	"function.h"
+	<windows.h>
+
